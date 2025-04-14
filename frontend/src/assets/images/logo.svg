@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="50px" viewBox="0 0 200 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CricScore Logo</title>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CricScore" transform="translate(10.000000, 10.000000)">
+            <circle id="Ball" fill="#03A9F4" cx="15" cy="15" r="15"></circle>
+            <path d="M15,0 C23.2842712,0 30,6.71572875 30,15 C30,23.2842712 23.2842712,30 15,30 C6.71572875,30 0,23.2842712 0,15 C0,6.71572875 6.71572875,0 15,0 Z M15,3 C8.372583,3 3,8.372583 3,15 C3,21.627417 8.372583,27 15,27 C21.627417,27 27,21.627417 27,15 C27,8.372583 21.627417,3 15,3 Z" id="Ball-Outline" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M15,3 C21.627417,3 27,8.372583 27,15 C27,21.627417 21.627417,27 15,27 C8.372583,27 3,21.627417 3,15 C3,8.372583 8.372583,3 15,3 Z M15,6 C10.0294373,6 6,10.0294373 6,15 C6,19.9705627 10.0294373,24 15,24 C19.9705627,24 24,19.9705627 24,15 C24,10.0294373 19.9705627,6 15,6 Z" id="Ball-Inner" fill="#0288D1" fill-rule="nonzero"></path>
+            <path d="M15,6 C19.9705627,6 24,10.0294373 24,15 C24,19.9705627 19.9705627,24 15,24 C10.0294373,24 6,19.9705627 6,15 C6,10.0294373 10.0294373,6 15,6 Z M15,9 C11.6862915,9 9,11.6862915 9,15 C9,18.3137085 11.6862915,21 15,21 C18.3137085,21 21,18.3137085 21,15 C21,11.6862915 18.3137085,9 15,9 Z" id="Ball-Inner-2" fill="#B3E5FC" fill-rule="nonzero"></path>
+            <path d="M14,9 L16,9 L16,21 L14,21 L14,9 Z" id="Seam-Vertical" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M9,14 L21,14 L21,16 L9,16 L9,14 Z" id="Seam-Horizontal" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <text id="CricScore" font-family="Arial-BoldMT, Arial" font-size="24" font-weight="bold" fill="#2B2C2D">
+                <tspan x="40" y="22">CricScore</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

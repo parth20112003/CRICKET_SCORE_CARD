@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Scorecard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#03a9f4",
+              secondary: "#1976d2",
+              accent: "#ff5722",
+              cricinfo: "#03a9f4",
+              cricinfoLight: "#e1f5fe",
+              cricinfoGray: "#f5f5f5",
+              cricinfoText: "#2b2c2d",
+              cricinfoSecondary: "#718096",
+              live: "#e53e3e",
+              upcoming: "#3182ce",
+              completed: "#38a169",
+              background: "#f8fafc",
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              heading: ['Montserrat', 'sans-serif'],
+            },
+            boxShadow: {
+              card: '0 2px 5px 0 rgba(0,0,0,0.05)',
+              'card-hover': '0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)',
+            },
+            borderRadius: {
+              'xl': '1rem',
+              '2xl': '1.5rem',
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Add some basic styles to ensure the UI is visible */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #f8fafc;
+        color: #2b2c2d;
+      }
+      .bg-cricinfo {
+        background-color: #03a9f4;
+      }
+      .text-cricinfo {
+        color: #03a9f4;
+      }
+      .bg-live {
+        background-color: #e53e3e;
+      }
+      .bg-upcoming {
+        background-color: #3182ce;
+      }
+      .bg-completed {
+        background-color: #38a169;
+      }
+      .text-live {
+        color: #e53e3e;
+      }
+      .text-upcoming {
+        color: #3182ce;
+      }
+      .text-completed {
+        color: #38a169;
+      }
+      .border-cricinfo {
+        border-color: #03a9f4;
+      }
+      .border-live {
+        border-color: #e53e3e;
+      }
+      .border-upcoming {
+        border-color: #3182ce;
+      }
+      .border-completed {
+        border-color: #38a169;
+      }
+      .bg-cricinfoGray {
+        background-color: #f5f5f5;
+      }
+      .text-cricinfoText {
+        color: #2b2c2d;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
